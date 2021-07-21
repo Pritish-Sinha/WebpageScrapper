@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+beautifulsoup4 = "*"
+inquirer = "*"
+requests = "*"
+lxml = "*"
+pandas = "*"
+
+[dev-packages]
+
+[scripts]
+start = "python -m page-scraper"
+
+[requires]
+python_version = "3.8"
